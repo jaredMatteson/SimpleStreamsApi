@@ -35,7 +35,6 @@ public class SimpleStreans {
 			else {
 				System.out.println("Filter Output:");
 				Names.stream().filter(x-> x.toUpperCase().charAt(0)==userName.toUpperCase().charAt(0)).forEach(System.out::println);
-				keepRunning = false;
 
 
 				//////////////////
@@ -72,6 +71,9 @@ public class SimpleStreans {
 				System.out.println();
 				System.out.println("Object Example");
 				persons.stream().sorted(Comparator.comparing(Person::retunrAge)).forEach(x -> System.out.println(x.msg()));
+
+
+				keepRunning = false;
 			}
 		}
 
