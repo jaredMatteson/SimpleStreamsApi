@@ -22,7 +22,7 @@ public class SimpleStreans {
 					new Person("Matt",35),
 					new Person("Jared",20),
 					new Person("Anders",23),
-					new	Person("Kris",36),
+					new Person("Kris",36),
 					new Person("Kai",19),
 					new Person("Sam",30),
 					new Person(NamesB[7],Example.randInt(18,40))
